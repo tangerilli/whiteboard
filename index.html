@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Whiteboard Demo</title>
+        <link rel="stylesheet" href="/static/styles.css">
+        
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <script src="/static/jcanvas.min.js"></script>
+        <script src="/static/whiteboard.js"></script>
+        <script>
+            $(function() {
+                $("#whiteboard").whiteboard();
+            });
+        </script>
+        
+    </head>
+    <body>
+        <h1>Whiteboard Demo</h1>
+        <canvas id="whiteboard" width="300" height="300"></canvas>
+    </body>
+</html>
